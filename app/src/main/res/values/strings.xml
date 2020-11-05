@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">child</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan">扫一扫</string>
+    <string name="setting">设置</string>
+    <string name="add">添加</string>
+    <string name="tody">今日</string>
+    <string name="record">记录</string>
+    <string name="addressBook">通讯录</string>
+    <string name="Mine">我的</string>
+    <string name="home_page">首页</string>
+    <string name="intimate">亲密度</string>
+    <string name="name">Demo</string>
+    <string name="telephone">12345678900</string>
+    <string name="sex">女</string>
+    <string name="name_tip">用户名</string>
+    <string name="sex_tip">性别</string>
+    <string name="sign_tip">个性签名</string>
+    <string name="sign">哈哈哈哈哈</string>
+    <string name="safe_tip">安全</string>
+    <string name="change_telephone_tip">修改手机号</string>
+    <string name="version_tip">关于我们</string>
+</resources>

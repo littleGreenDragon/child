@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    tools:context=".activity.TitleBottomActivity">
+
+
+    <RadioGroup
+        android:id="@+id/tabs_rg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#97F18080"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/homepage_tab"
+            style="@style/Custom.TabRadioButton"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_sign_selector"
+            android:text="@string/home_page" />
+
+
+        <RadioButton
+            android:id="@+id/intimate_tab"
+            style="@style/Custom.TabRadioButton"
+            android:drawableTop="@drawable/tab_intimate_selector"
+            android:text="@string/intimate" />
+
+
+
+        <RadioButton
+            android:id="@+id/settings_tab"
+            style="@style/Custom.TabRadioButton"
+            android:drawableTop="@drawable/tab_user_selector"
+            android:text="@string/Mine" />
+    </RadioGroup>
+</RelativeLayout>
